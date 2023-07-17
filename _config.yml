@@ -83,12 +83,12 @@ author:
   name             : "Longfu Xu"
   avatar           : "profile.png"
   bio              : "PhD in Biophysics @ Vrije Universiteit Amsterdam"
-  location         : "Amsterdam, NL"
-  employer         :
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  location         : "Amsterdam"
+  employer         : 
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=lkZwOH0AAAAJ&hl=en"
   email            : "longfu2.xu@gmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Longfu-Xu-2"
+  researchgate     : "https://www.researchgate.net/profile/Longfu-Xu-2"
   uri              :
   bitbucket        :
   codepen          :
