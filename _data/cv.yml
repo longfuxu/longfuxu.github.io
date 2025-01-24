@@ -9,6 +9,10 @@
       value: UC Berkeley/HHMI
     - name: Languages
       value: Chinese (native), English (professional proficiency), Dutch (beginner, A2 level)
+    - name: Technical Skills
+      value: Python, Bash, SQL
+    - name: Research Focus
+      value: Single-molecule biophysics, DNA mechanics, protein-DNA interactions, viral DNA packaging motors
 
 
 - title: Academic Training
@@ -57,15 +61,23 @@
   type: time_table
   contents:
     - title: Recent Publications
-      year: 2024
+      year: 2024-2025
       description:
-        - "Mapping Fast DNA Polymerase Exchange during Replication. Nature Communications 15, 5328"
-        - Featured in The-Scientist and BioArt
+        - "Mapping Fast DNA Polymerase Exchange during Replication. Nature Communications 15, 5328 (2024)"
+        - "Featured in The-Scientist: 'DNA Polymerase Works in Short Bursts Rather than One Long Stretch'"
+        - "Life under tension: the relevance of force on biological polymers. Biophys Rep 9(X):1−9 (2024)"
+        - "DNA polymerase actively displaces single-stranded DNA binding protein. Molecular Cell. (Submitted)"
+        - "Single-molecule high-resolution dynamics and activity mapping (shDAM) of DNA-binding proteins. Nature Protocols. (Invited)"
     - title: Recent Publications
       year: 2023
       description:
-        - "Regulation of T7 Gp2.5 Binding Dynamics. Nucleic Acids Research 51(13)"
-        - "Unravelling Single-Stranded DNA Binding Protein. Int. J. Mol. Sci. 24(3)"
+        - "Regulation of T7 Gp2.5 Binding Dynamics by Its C-Terminal Tail, Template Conformation and Sequence. Nucleic Acids Research 51(13), 6540-6553"
+        - "Unravelling How Single-Stranded DNA Binding Protein Coordinates DNA Metabolism Using Single-Molecule Approaches. Int. J. Mol. Sci. 24(3), 2806"
+    - title: Patents
+      year: 2016-2018
+      description:
+        - "China Patent CN108623695A: A fusion protein of albumin-binding peptide and human ciliary neurotrophic factor"
+        - "China Patent CN106220843B: A polyethylene glycol modifier containing ortho-benzoquinone functional groups"
 
 - title: Honors and Awards
   type: time_table
@@ -96,11 +108,16 @@
     - title: Journal Reviewership
       items:
         - Physical Review
-        - Nature Communications 
+        - Nature Communications (co-review)
 
 - title: Research Interests
   type: list
   contents:
-    - <u>Core Areas:</u> Single-Molecule Biophysics, DNA-Protein Interactions, Viral DNA Packaging Mechanisms
-    - <u>Techniques:</u> Single-molecule spectroscopy, Single-molecule Imaging, Bulk biochemical assays
-    - <u>Applications:</u> Viral DNA packaging, DNA replication, Protein-DNA dynamics
+    - <u>Core Areas:</u> Single-Molecule Biophysics, DNA-Protein Interactions, Viral DNA Packaging Mechanisms, Mechanochemistry
+    - <u>Techniques:</u> Optical tweezers, Single-molecule fluorescence microscopy, Correlative imaging methods, High-resolution dynamics mapping
+    - <u>Applications:</u> DNA replication mechanisms, Protein-DNA dynamics, Molecular motors, ASCE Ring NTPases
+    - <u>Future Directions:</u>
+        • Structural investigations of molecular motors
+        • Dynamics and energy landscape analysis
+        • Single-molecule mechanistic studies
+        • Advanced biotechnology development and clinical translation

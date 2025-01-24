@@ -11,6 +11,13 @@
       {% if site.last_updated %}
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
+      {% if site.goatcounter_id %}
+        <span class="ml-1">
+          <a href="https://{{ site.goatcounter_id }}.goatcounter.com" target="_blank">
+            <i class="fas fa-chart-bar"></i> Visit Stats
+          </a>
+        </span>
+      {% endif %}
     </div>
   </footer>
 {% else %}
@@ -29,6 +36,13 @@
       {% endif %}
       {% if site.last_updated %}
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+      {% if site.goatcounter_id %}
+        <span class="ml-1">
+          <a href="https://{{ site.goatcounter_id }}.goatcounter.com" target="_blank">
+            <i class="fas fa-chart-bar"></i> Visit Stats
+          </a>
+        </span>
       {% endif %}
     </div>
   </footer>

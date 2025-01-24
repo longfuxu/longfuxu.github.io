@@ -1,7 +1,10 @@
 ---
 layout: page
 title: hobbies
-nav: false
+permalink: /hobbies/
+description: Personal interests and activities outside of research.
+nav: true
+nav_order: 6
 ---
 
 # Hobbies & Interests

@@ -1,81 +1,33 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Regulation of T7 gp2.5 binding dynamics
+description: Research on bacteriophage T7 single-stranded DNA-binding protein dynamics
+img: assets/img/graphical abstract-2-01.png
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This research investigates the binding dynamics of bacteriophage T7 single-stranded DNA-binding protein (gp2.5) and its interaction with DNA molecules. The study reveals how gp2.5 binds to and protects transiently exposed regions of single-stranded DNA (ssDNA) while dynamically interacting with other proteins in the replication complex.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Key Findings
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- T7 gp2.5 reduces the contour length of ssDNA by stacking nucleotides in a force-dependent manner
+- The protein suppresses the formation of secondary structure
+- The binding dynamics are influenced by:
+  - Base sequence of the DNA molecule
+  - ssDNA conformation induced by template tension
+  - Acidic terminal domain from T7 gp2.5
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Impact
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The research uncovered a unique template-catalyzed recycling behavior of T7 gp2.5, which results in:
+- Apparent cooperative binding to ssDNA
+- Efficient spatial redistribution during synthesis
+- Prevention of secondary structure formation
+- Rapid rebinding to nearby exposed ssDNA regions during lagging strand DNA synthesis
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+This work contributes to our understanding of DNA-protein interactions and their role in biological processes.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Published in: Nucleic Acids Research, Volume 51, Issue 13, 21 July 2023, Pages 6540–6553
+DOI: [https://doi.org/10.1093/nar/gkad485](https://doi.org/10.1093/nar/gkad485)

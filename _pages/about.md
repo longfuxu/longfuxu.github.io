@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: welcome
 permalink: /
-# subtitle: Postdoctoral Researcher in Biophysics at UC Berkeley/HHMI
+subtitle: "Unraveling the mysteries of life, one molecule at a time."
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Physics</p>
-    <p>University of California, Berkeley</p>
+    <p>UC Berkeley/HHMI</p>
     <p>Berkeley, CA 94720, USA</p>
 
 news: true # includes a list of news items
@@ -24,12 +24,12 @@ Prior to joining UC Berkeley, I pursued my PhD and postdoctoral research in [Pro
 
 My Master of Science degree was obtained at the University of the Chinese Academy of Sciences, under the guidence of Professors Zhiguo Su and Yongdong Liu. During this period, my research centered on novel approaches to long-acting biopharmaceuticals, including PEGylation and albumin-binding domain fusion, aimed at enhancing therapeutic efficacy.
 
-## Research Interests
+## research interests
 - Single-Molecule Biophysics
 - DNA-Protein Interactions
 - Single-Molecule Manipulation& Visualization
 - DNA Packaging
 
-### "Unraveling the mysteries of life, one molecule at a time."
+
 
 Feel free to explore my [publications](/publications/), [projects](/projects/), or connect with me through [Google Scholar](https://scholar.google.com/citations?user=lkZwOH0AAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/longfuxu/), [Twitter](https://x.com/longfu_xu), or [GitHub](https://github.com/longfuxu).
