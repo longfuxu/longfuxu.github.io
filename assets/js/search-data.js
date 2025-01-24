@@ -431,16 +431,17 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-our-work-on-t7-gp2-5-binding-dynamics-published-in-nucleic-acids-research",
+          title: 'Our work on T7 Gp2.5 binding dynamics published in Nucleic Acids Research!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-excited-to-defend-my-ph-d-thesis-congratulations-dr-xu",
+          title: 'Excited to defend my Ph.D thesis. Congratulations, Dr. Xu!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-paper-on-dna-polymerase-exchange-during-replication-has-been-published-in-nature-communications-featured-in-the-scientist-and-bioart",
+          title: 'Our paper on DNA polymerase exchange during replication has been published in Nature...',
+          description: "",
+          section: "News",},{id: "news-excited-to-join-prof-carlos-bustamante-s-lab-at-uc-berkeley-hhmi-to-study-viral-dna-packaging-motors",
+          title: 'Excited to join Prof. Carlos Bustamante’s lab at UC Berkeley/HHMI to study viral...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
