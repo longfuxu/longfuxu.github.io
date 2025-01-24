@@ -2,96 +2,105 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Longfu Xu
+    - name: Current Position
+      value: Postdoctoral Researcher in Biophysics
+    - name: Institution
+      value: UC Berkeley/HHMI
     - name: Languages
-      value: English, German
+      value: Chinese (native), English (professional proficiency), Dutch (beginner, A2 level)
 
-- title: Education
+
+- title: Academic Training
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Postdoc, Biophysics
+      institution: HHMI/UC Berkeley, USA
+      year: Jan. 2025-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Advisor - Prof. Carlos J. Bustamante
+        - Research on mechanochemistry of viral DNA packaging motors
+        - Studies of motor dynamics and energy landscapes
 
-- title: Experience
+    - title: Postdoc, Biophysics
+      institution: VU Amsterdam, Netherlands
+      year: Nov. 2023- Dec. 2024      
+      description:
+        - Advisor - Prof. Gijs J.L. Wuite
+        - Research on DNA replication mechanisms
+        - Single-molecule studies of protein-DNA interactions
+
+    - title: Ph.D. Student, Biophysics
+      institution: VU Amsterdam, Netherlands
+      year: Oct. 2017-Nov. 2023
+      description:
+        - Advisor - Prof. Gijs J.L. Wuite
+        - Thesis on single DNA molecule replication
+        - Developed novel single-molecule approaches
+
+    - title: M.Sc., Biochemistry
+      institution: University of Chinese Academy of Sciences, Beijing, China
+      year: Sep. 2014- Jul. 2017
+      description:
+        - Advisors - Prof. Zhiguo Su & Prof. Yongdong Liu
+        - Research on long-acting biotherapeutics
+        - Focus on PEGylation and protein engineering
+
+    - title: B.S., Food Science
+      institution: Northeast Algriculture University, Harbin, China
+      year: Sep. 2010- Jun. 2014
+      description:
+        - Advisor - Prof. Lianzhou Jiang
+        - Outstanding Graduate
+
+- title: Selected Publications
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Recent Publications
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Mapping Fast DNA Polymerase Exchange during Replication. Nature Communications 15, 5328"
+        - Featured in The-Scientist and BioArt
+    - title: Recent Publications
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - "Regulation of T7 Gp2.5 Binding Dynamics. Nucleic Acids Research 51(13)"
+        - "Unravelling Single-Stranded DNA Binding Protein. Int. J. Mol. Sci. 24(3)"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2017
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Four years Ph.D. Fellowships, China Scholarship Council
+    - year: 2016
       items:
-        - Max Planck Medal
+        - The First Prize Scholarship, UCAS
+        - Merit student, UCAS
+    - year: 2014
+      items:
+        - Outstanding Graduate, NEAU
+    - year: 2011
+      items:
+        - "#1 Ranked Freshman, NEAU"
+        - National Scholarship, Ministry of Education, PRC
 
-- title: Academic Interests
+- title: Professional Activities
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Student Mentoring
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "2022: Zixu Wang (Master Thesis) - VU Amsterdam"
+        - "2020: Jeroen van Asten (Bachelor Thesis) - VU Amsterdam"
+        - "2019: Sietse Couperus (Bachelor Thesis) - VU Amsterdam"
+    - title: Journal Reviewership
       items:
-        - Description 1.
-        - Description 2.
+        - Physical Review
+        - Nature Communications 
 
-- title: Other Interests
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Core Areas:</u> Single-Molecule Biophysics, DNA-Protein Interactions, Viral DNA Packaging Mechanisms
+    - <u>Techniques:</u> Single-molecule spectroscopy, Single-molecule Imaging, Bulk biochemical assays
+    - <u>Applications:</u> Viral DNA packaging, DNA replication, Protein-DNA dynamics
