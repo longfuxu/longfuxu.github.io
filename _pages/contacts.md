@@ -2,24 +2,24 @@
 layout: page
 title: contacts
 permalink: /contacts/
-description: Ways to get in touch and connect.
+description: 
 nav: true
-nav_order: 7
+nav_order: 8
 ---
-
-## Contact Information
-
-**Email**: longfu2.xu[at]gmail.com
+Feel free to explore my [publications](/publications/), [projects](/projects/), or connect with me through [Google Scholar](https://scholar.google.com/citations?user=lkZwOH0AAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/longfuxu/), [Twitter](https://x.com/longfu_xu), or [GitHub](https://github.com/longfuxu).
 
 **Address**:  
-Department of Physics  
+QB3 Institute,Department of Physics  
 UC Berkeley/HHMI  
 Berkeley, CA 94720, USA
+
+**Email**: longfu2.xu[at]gmail[dot]com
 
 ## Lab Affiliations
 
 - [Bustamante Lab at UC Berkeley](http://bustamante.berkeley.edu)
-- [Wuite Lab at VU Amsterdam](https://www.gijswuite.com/contact-gijswuite)
+
+- [Wuite Lab at VU Amsterdam](https://www.gijswuite.com/)
 
 ## Schedule a Meeting
 

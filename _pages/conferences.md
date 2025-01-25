@@ -3,7 +3,8 @@ layout: page
 title: conferences
 permalink: /conferences/
 description: Conference presentations and abstracts in biophysics and molecular mechanisms.
-nav: false
+nav: true
+nav_order: 7
 ---
 
 ## Conference Oral Presentations

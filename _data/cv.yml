@@ -1,28 +1,23 @@
-- title: General Information
+- title: About Me
   type: map
   contents:
     - name: Full Name
       value: Longfu Xu
     - name: Current Position
-      value: Postdoctoral Researcher in Biophysics
-    - name: Institution
-      value: UC Berkeley/HHMI
+      value: Postdoctoral Researcher in Biophysics @UC Berkeley/HHMI
     - name: Languages
-      value: Chinese (native), English (professional proficiency), Dutch (beginner, A2 level)
-    - name: Technical Skills
-      value: Python, Bash, SQL
-    - name: Research Focus
-      value: Single-molecule biophysics, DNA mechanics, protein-DNA interactions, viral DNA packaging motors
+      value: Chinese (native), English (professional proficiency), Dutch (beginner)
+    - name: Research Interests
+      value: single-molecule biophysics, protein-DNA interactions, DNA replication, viral DNA packaging motors
 
 
 - title: Academic Training
   type: time_table
   contents:
     - title: Postdoc, Biophysics
-      institution: HHMI/UC Berkeley, USA
+      institution: Bustamante's Lab @HHMI/UC Berkeley, USA
       year: Jan. 2025-present
       description:
-        - Advisor - Prof. Carlos J. Bustamante
         - Research on mechanochemistry of viral DNA packaging motors
         - Studies of motor dynamics and energy landscapes
 
@@ -73,11 +68,6 @@
       description:
         - "Regulation of T7 Gp2.5 Binding Dynamics by Its C-Terminal Tail, Template Conformation and Sequence. Nucleic Acids Research 51(13), 6540-6553"
         - "Unravelling How Single-Stranded DNA Binding Protein Coordinates DNA Metabolism Using Single-Molecule Approaches. Int. J. Mol. Sci. 24(3), 2806"
-    - title: Patents
-      year: 2016-2018
-      description:
-        - "China Patent CN108623695A: A fusion protein of albumin-binding peptide and human ciliary neurotrophic factor"
-        - "China Patent CN106220843B: A polyethylene glycol modifier containing ortho-benzoquinone functional groups"
 
 - title: Honors and Awards
   type: time_table
@@ -109,6 +99,23 @@
       items:
         - Physical Review
         - Nature Communications (co-review)
+
+- title: Patents
+  type: time_table
+  contents:
+    - title: Issued Patents
+      year: 2016-2018
+      description:
+        - title: A fusion protein of albumin-binding peptide and human ciliary neurotrophic factor
+          details:
+            - Patent Number: CN108623695A
+            - Issue Date: October 9, 2018
+            - Inventors: Y. Liu, L. Xu, C. Zhang, Z. Su
+        - title: A polyethylene glycol modifier containing ortho-benzoquinone functional groups
+          details:
+            - Patent Number: CN106220843B
+            - Issue Date: July 31, 2016
+            - Inventors: Y. Liu, L. Xu, Z. Su, C. Zhang, Q. Wang
 
 - title: Research Interests
   type: list

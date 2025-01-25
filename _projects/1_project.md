@@ -4,7 +4,7 @@ title: Mapping fast DNA polymerase exchange during replication
 description: Revealing autonomous exchange mechanisms in DNA replication
 img: assets/img/NC_img.jpg
 importance: 1
-category: work
+category: PhD&Postdoc @ VU Amsterdam, NL
 related_publications: true
 ---
 

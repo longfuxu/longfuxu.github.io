@@ -5,7 +5,7 @@ permalink: /research/
 description: Current and past research projects in biophysics and molecular mechanisms.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: ["PhD&Postdoc @ VU Amsterdam, NL", "Master @ UCAS,Beijing, CN"]
 horizontal: false
 ---
 
