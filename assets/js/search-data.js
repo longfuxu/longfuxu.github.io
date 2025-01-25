@@ -30,47 +30,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
+        },{id: "nav-conferences",
+          title: "conferences",
+          description: "Conference presentations and abstracts in biophysics and molecular mechanisms.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/conferences/";
           },
-        },{id: "nav-hobbies",
-          title: "hobbies",
-          description: "Personal interests and activities outside of research.",
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/hobbies/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-contacts",
           title: "contacts",
-          description: "Ways to get in touch and connect.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/contacts/";
           },
-        },{id: "dropdown-conferences",
-              title: "conferences",
+        },{id: "dropdown-hobbies",
+              title: "hobbies",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "dropdown-repository",
-              title: "repository",
+            },{id: "dropdown-blog",
+              title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-patent",
-              title: "patent",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
+                window.location.href = "/blog/";
               },
             },{id: "post-a-post-with-image-galleries",
       
@@ -451,6 +444,16 @@ ninja.data = [{
           description: "Research on single-stranded DNA-binding proteins and their role in DNA replication",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-long-acting-cntf-via-albumin-binding-domain-fusion",
+          title: 'Long-acting CNTF via Albumin-binding Domain Fusion',
+          description: "Development of a novel long-acting ciliary neurotrophic factor for therapeutic applications",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-thiol-specific-pegylation-via-catechol-derivatives",
+          title: 'Thiol-specific PEGylation via Catechol-derivatives',
+          description: "Development of novel PEGylation reagents for protein half-life extension",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{
         id: 'social-email',
         title: 'email',
