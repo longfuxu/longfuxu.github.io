@@ -30,33 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-research-timeline",
-          title: "research timeline",
-          description: "A chronological overview of my research journey and key milestones.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/timeline/";
-          },
-        },{id: "nav-teaching-amp-mentoring",
-          title: "teaching &amp; mentoring",
-          description: "Information about my teaching experience, mentoring activities, and educational contributions.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "nav-conferences",
           title: "conferences",
           description: "Conference presentations and abstracts in biophysics and molecular mechanisms.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/conferences/";
-          },
-        },{id: "nav-media-coverage",
-          title: "media coverage",
-          description: "Media coverage and public engagement related to my research.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/media/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -86,25 +65,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "post-new-insights-into-dna-replication-dynamics",
-      
-        title: "New Insights into DNA Replication Dynamics",
-      
-      description: "Exploring our recent findings on DNA polymerase exchange during replication and the implications for understanding fundamental biological processes.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/dna-replication-insights/";
-        
-      },
-    },{id: "post-a-post-with-image-galleries",
+            },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -468,12 +429,7 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-join-prof-carlos-bustamante-s-lab-at-uc-berkeley-hhmi-to-study-viral-dna-packaging-motors",
           title: 'Excited to join Prof. Carlos Bustamante’s lab at UC Berkeley/HHMI to study viral...',
           description: "",
-          section: "News",},{id: "projects-viral-genome-packaging-mechanisms",
-          title: 'Viral Genome Packaging Mechanisms',
-          description: "Investigating how viral ATPase motors generate mechanical force to package DNA",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/0_project/";
-            },},{id: "projects-mapping-fast-dna-polymerase-exchange-during-replication",
+          section: "News",},{id: "projects-mapping-fast-dna-polymerase-exchange-during-replication",
           title: 'Mapping fast DNA polymerase exchange during replication',
           description: "Revealing autonomous exchange mechanisms in DNA replication",
           section: "Projects",handler: () => {
