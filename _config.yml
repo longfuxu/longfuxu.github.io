@@ -13,9 +13,10 @@ contact_note: |
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
 keywords: Longfu Xu, Biophysics, optical tweezers, single-molecule,Ph.D # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='10' fill='%23333'/><ellipse cx='50' cy='50' rx='40' ry='15' stroke='%23333' stroke-width='5' fill='none' transform='rotate(0 50 50)'/><ellipse cx='50' cy='50' rx='40' ry='15' stroke='%23333' stroke-width='5' fill='none' transform='rotate(60 50 50)'/><ellipse cx='50' cy='50' rx='40' ry='15' stroke='%23333' stroke-width='5' fill='none' transform='rotate(120 50 50)'/><circle cx='50' cy='35' r='6' fill='%23333'/><circle cx='20.36' cy='57.5' r='6' fill='%23333' transform='rotate(60 50 50) translate(-29.64 -2.5)'/><circle cx='79.64' cy='57.5' r='6' fill='%23333' transform='rotate(120 50 50) translate(29.64 -2.5)'/></svg>" # a stylized atom SVG favicon
 
 url: https://longfuxu.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -454,7 +455,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
   highlightjs:
     integrity:
       css:

@@ -18,16 +18,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Trained as a biophysicist, my work focuses on decoding two essential processes in viral life cycles—DNA replication and packaging—from a single-molecule perspective. By developing and applying advanced single-molecule manipulation, visualization, and structural dynamics approaches, I aim to expand our understanding of general living systems principles and ultimately inform strategies for treating genetic diseases and preventing future viral threats.
+I am a biophysicist interested in decoding viral life cycles—especially viral DNA replication and DNA packaging—from a single-molecule perspective. My goal is to deepen our understanding of these fundamental processes, potentially opening new pathways for treating genetic diseases and preventing future viral threats.
 
-I currently work as a postdoctoral researcher in [Prof. Carlos J. Bustamante's lab](http://bustamante.berkeley.edu) at UC Berkeley/HHMI, investigating how a virally encoded ATPase motor propels the viral genome into a preassembled container—a mechanism utilized by many dsDNA bacteriophages and their eukaryotic counterparts (herpes-, adeno-, and poxviruses). My broader goal is to elucidate how these packaging machines harness ATP binding, hydrolysis, and release to generate mechanical force.
+Currently, I am a Damon Runyon Fellow and a postdoctoral researcher in [Professor Carlos J. Bustamante's laboratory](http://bustamante.berkeley.edu) at UC Berkeley/HHMI. My work focuses on how virally encoded ATPase motors translocate viral genomes into preassembled capsids—a critical step in the life cycle of many dsDNA bacteriophages and their eukaryotic counterparts (e.g., herpesviruses, adenoviruses, poxviruses). A central goal is to understand how these molecular machines convert the chemical energy from ATP binding, hydrolysis, and product release into mechanical force for genome packaging.
 
-Prior to this, I obtained my PhD and conducted postdoctoral training in [Professor Gijs Wuite’s laboratory](www.gijswuite.com) at Vrije Universiteit Amsterdam, where I developed and applied correlated optical tweezers and fluorescence microscopy to observe replication dynamics at higher resolution using a simplified T7 system to revisit DNA replication. One of our most interesting findings showed that replication is far more dynamic than previously assumed, leading us to propose a “decentralized model” (see our recent  [Nature Communications](https://www.nature.com/articles/s41467-024-49612-3) publication). Earlier in my career, I earned an MSc at the University of the Chinese Academy of Sciences under Professors Zhiguo Su and Yongdong Liu, focusing on novel long-acting biopharmaceuticals through PEGylation and albumin-binding domains.
-
+Previously, I completed my PhD and postdoctoral training in [Professor Gijs Wuite’s laboratory](www.gijswuite.com) at Vrije Universiteit Amsterdam. There, I developed and applied correlative optical tweezers and fluorescence microscopy techniques to study DNA replication dynamics in a simplified T7 bacteriophage system. Our findings revealed that DNA replication is significantly more dynamic than previously understood, leading to the proposal of a “decentralized model” for this process (see our recent [Nature Communications](https://www.nature.com/articles/s41467-024-49612-3) publication). Earlier in my career, I earned my MSc from the University of the Chinese Academy of Sciences, working with Professors Zhiguo Su and Yongdong Liu. My research focused on developing novel long-acting biopharmaceuticals using PEGylation and albumin-binding domain technologies.
 
 ## research interests
 - Single-molecule biophysics
 - DNA-protein interactions
+- Mechanisms of viral DNA replication and packaging
 - Integrating structural insights with functional dynamics
 - Expanding applications of single-molecule techniques
-
