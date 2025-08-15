@@ -11,10 +11,10 @@ contact_note: |
 
   Feel free to contact me for any inquiries or collaboration opportunities.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  I'm a biophysicist studying viral DNA replication and packaging with single-molecule approaches. I'm also building SciXchange — a Scientific Materials Exchange Network to make research more efficient. Dream big, act little.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
-keywords: Longfu Xu, Biophysics, optical tweezers, single-molecule,Ph.D # add your own keywords or leave empty
+keywords: Longfu Xu, Biophysics, optical tweezers, single-molecule, DNA replication, viral packaging, SciXchange, Scientific Materials Exchange # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='10' fill='%23333'/><ellipse cx='50' cy='50' rx='40' ry='15' stroke='%23333' stroke-width='5' fill='none' transform='rotate(0 50 50)'/><ellipse cx='50' cy='50' rx='40' ry='15' stroke='%23333' stroke-width='5' fill='none' transform='rotate(60 50 50)'/><ellipse cx='50' cy='50' rx='40' ry='15' stroke='%23333' stroke-width='5' fill='none' transform='rotate(120 50 50)'/><circle cx='50' cy='35' r='6' fill='%23333'/><circle cx='20.36' cy='57.5' r='6' fill='%23333' transform='rotate(60 50 50) translate(-29.64 -2.5)'/><circle cx='79.64' cy='57.5' r='6' fill='%23333' transform='rotate(120 50 50) translate(29.64 -2.5)'/></svg>" # a stylized atom SVG favicon
 
@@ -90,8 +90,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: personal blogs with random thoughts # blog_name will be displayed in your blog page
-blog_description: will be updated soon (below just templates)
+blog_name: Blog # blog_name will be displayed in your blog page
+blog_description: Research insights, methodology notes, and thoughts on science
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -278,8 +278,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Xu]
+  first_name: [Longfu, L.]
 
   style: apa
   locale: en

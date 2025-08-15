@@ -1,0 +1,201 @@
+/* Custom styling to match PRD design system */
+
+/* Color palette as specified in PRD */
+:root {
+  --dna-blue: #1F5FFF;
+  --ink: #0B1220;
+  --graphite: #3B4252;
+  --silver: #E5E7EB;
+  --paper: #FAFAFA;
+  --helix-green: #29A68A;
+}
+
+/* Typography improvements */
+.hero-section {
+  background: linear-gradient(135deg, var(--paper) 0%, var(--silver) 100%);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+/* Research theme cards styling */
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: var(--dna-blue);
+  font-weight: 600;
+}
+
+/* Navigation improvements */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--helix-green) !important;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: var(--dna-blue);
+  border-color: var(--dna-blue);
+}
+
+.btn-primary:hover {
+  background-color: var(--helix-green);
+  border-color: var(--helix-green);
+}
+
+.btn-outline-primary {
+  color: var(--dna-blue);
+  border-color: var(--dna-blue);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--dna-blue);
+  border-color: var(--dna-blue);
+}
+
+/* News items styling */
+.news-item {
+  border-left: 3px solid var(--dna-blue);
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: var(--graphite);
+  font-weight: 600;
+}
+
+.news-content {
+  margin-top: 0.25rem;
+}
+
+/* Footer links styling */
+.footer-links a {
+  margin: 0 0.5rem;
+  color: var(--graphite);
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--helix-green);
+  text-decoration: none;
+}
+
+/* Blog post tags */
+.post-tags a {
+  color: var(--dna-blue);
+  text-decoration: none;
+}
+
+.post-tags a:hover {
+  color: var(--helix-green);
+}
+
+/* Publications enhancements */
+.publications .bibliography li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 3px solid var(--silver);
+  background: var(--paper);
+  border-radius: 0 5px 5px 0;
+}
+
+.publications .bibliography li:hover {
+  border-left-color: var(--dna-blue);
+}
+
+/* Contact form styling */
+.contact-form .form-control {
+  border: 2px solid var(--silver);
+  transition: border-color 0.2s ease;
+}
+
+.contact-form .form-control:focus {
+  border-color: var(--dna-blue);
+  box-shadow: 0 0 0 0.2rem rgba(31, 95, 255, 0.25);
+}
+
+/* SciXchange specific styling */
+.alert-info {
+  background-color: rgba(31, 95, 255, 0.1);
+  border-color: var(--dna-blue);
+  color: var(--ink);
+}
+
+.alert-info .alert-heading {
+  color: var(--dna-blue);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .card-deck .card {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links {
+    text-align: center !important;
+  }
+}
+
+/* Dark mode adjustments */
+html[data-theme='dark'] {
+  --paper: #1a1a1a;
+  --silver: #2a2a2a;
+  --ink: #e0e0e0;
+  --graphite: #b0b0b0;
+}
+
+/* Accessibility improvements */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Focus states */
+a:focus,
+button:focus,
+.form-control:focus {
+  outline: 2px solid var(--dna-blue);
+  outline-offset: 2px;
+}
+
+/* Skip to content link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--dna-blue);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  top: 6px;
+}

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to defend my Ph.D thesis. Congratulations, Dr. Xu!
+Successfully defended my Ph.D thesis at Vrije Universiteit Amsterdam. Congratulations, Dr. Xu! :mortar_board:

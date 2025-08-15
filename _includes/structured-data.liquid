@@ -1,0 +1,171 @@
+<!-- JSON-LD Structured Data -->
+{% if page.permalink == '/' or page.url == '/' %}
+<!-- Person Schema for Homepage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.first_name }} {{ site.last_name }}",
+  "jobTitle": "Biophysicist",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "description": "{{ site.description | strip_html | strip_newlines }}",
+  "sameAs": [
+    {% if site.orcid_id %}"https://orcid.org/{{ site.orcid_id }}",{% endif %}
+    {% if site.scholar_userid %}"https://scholar.google.com/citations?user={{ site.scholar_userid }}",{% endif %}
+    {% if site.github_username %}"https://github.com/{{ site.github_username }}",{% endif %}
+    {% if site.linkedin_username %}"https://linkedin.com/in/{{ site.linkedin_username }}",{% endif %}
+    {% if site.twitter_username %}"https://twitter.com/{{ site.twitter_username }}"{% endif %}
+  ],
+  "affiliation": {
+    "@type": "Organization",
+    "name": "UC Berkeley/HHMI"
+  },
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "name": "Vrije Universiteit Amsterdam"
+    },
+    {
+      "@type": "Organization", 
+      "name": "University of the Chinese Academy of Sciences"
+    }
+  ],
+  "knowsAbout": [
+    "Single-molecule biophysics",
+    "DNA replication",
+    "Viral packaging",
+    "Optical tweezers",
+    "Fluorescence microscopy"
+  ]
+}
+</script>
+
+<!-- WebSite Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title | default: site.first_name }} {{ site.last_name }}",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "description": "{{ site.description | strip_html | strip_newlines }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}{{ site.baseurl }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+{% elsif page.layout == 'post' %}
+<!-- BlogPosting Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html | strip_newlines }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  {% if page.tags %}
+  "keywords": {{ page.tags | jsonify }},
+  {% endif %}
+  "articleSection": "{{ page.categories | first | default: 'Blog' }}",
+  "inLanguage": "{{ site.lang | default: 'en' }}"
+}
+</script>
+
+{% elsif page.permalink contains '/publications' %}
+<!-- Collection Page Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Research Publications",
+    "description": "Academic publications in biophysics and molecular mechanisms"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}"
+  }
+}
+</script>
+
+{% elsif page.permalink contains '/sciXchange' %}
+<!-- Project Schema for SciXchange -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SciXchange",
+  "description": "Scientific Materials Exchange Network - A platform for researchers to share research materials",
+  "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+  "applicationCategory": "Research Platform",
+  "applicationSubCategory": "Scientific Collaboration",
+  "creator": {
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "operatingSystem": "Web-based",
+  "isAccessibleForFree": true,
+  "developmentStatus": "In Development",
+  "keywords": [
+    "Scientific Materials",
+    "Research Collaboration", 
+    "Laboratory Management",
+    "Academic Research"
+  ]
+}
+</script>
+
+{% else %}
+<!-- Generic WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description | default: site.description | strip_html | strip_newlines }}",
+  "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "inLanguage": "{{ site.lang | default: 'en' }}"
+}
+</script>
+{% endif %}

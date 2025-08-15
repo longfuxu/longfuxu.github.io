@@ -1,10 +1,10 @@
 ---
 layout: page
-title: research
-permalink: /research/
+title: Projects
+permalink: /projects/
 description: Current and past research projects in biophysics and molecular mechanisms.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: ["PhD&Postdoc @ VU Amsterdam, NL", "Master @ UCAS,Beijing, CN"]
 horizontal: false
 ---

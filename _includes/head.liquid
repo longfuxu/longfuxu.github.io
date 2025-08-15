@@ -1,6 +1,9 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+<!-- JSON-LD Structured Data -->
+{% include structured-data.liquid %}
+
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title | default: site.first_name }}" href="{{ '/feed.xml' | relative_url }}">
 
